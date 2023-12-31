@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Galacticos.Application",
+    "\\src\\Galacticos.Application\\DTOs",
+    "\\src\\Galacticos.Application\\Features",
+    "\\src\\Galacticos.Application\\Features\\Posts",
+    "\\src\\Galacticos.Application\\Features\\Posts\\Handlers",
+    "\\src\\Galacticos.Application\\Features\\Posts\\Handlers\\Commands",
+    "\\src\\Galacticos.Application\\Features\\Posts\\Handlers\\Queries",
+    "\\test"
+  ],
+  "SelectedNode": "\\Galacticos.sln",
+  "PreviewInSolutionExplorer": false
+}

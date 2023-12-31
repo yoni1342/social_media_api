@@ -1,0 +1,39 @@
+@host=http://localhost:5293
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMGNmNWY0OC05NzJkLTRiNjktYTQzMi01M2YwZmE1NTczNzkiLCJnaXZlbl9uYW1lIjoiWW9uYXRhbiIsImZhbWlseV9uYW1lIjoiVGVzZmF5ZSIsImp0aSI6ImI2MjAyODcwLTE0NDYtNDBmYi1hM2JmLTk2NWU5ZDNjMGE1ZiIsImV4cCI6MTY5Mjk2NjQ1NywiaXNzIjoiZ2FsYWN0aWNvcyIsImF1ZCI6ImdhbGFjdGljb3MifQ.JY3TG2COcVkbB_YpgqYi9l8rXJ1H0vaHxRVcRMphJRE
+
+GET {{host}}/api/Profile/f7ff0565-394e-4c09-af9b-2807e37bd357
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+###
+POST {{host}}/api/Profile
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "caption": "string",
+  "image": "string"
+}
+
+###
+
+POST {{host}}/api/auth/register
+Content-Type: application/json
+
+{
+  "firstName": "string",
+  "lastName": "string",
+  "userName": "sstring",
+  "email": "YonatanTesfayee@gmail.com",
+  "password": "12345678",
+  "confirmPassword": "12345678"
+}
+
+###
+POST {{host}}/api/auth/login
+Content-Type: application/json
+
+{
+  "userName": "sstring",
+  "password": "12345678"
+}
